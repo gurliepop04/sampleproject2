@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<title> Login </title> 
+		<link rel="stylesheet" href="index.css" media="screen">  <!--CSS file-->
+		<link rel = "icon" type = "image/x-icon" href = "logo.png"> <!-- Logo Icon -->
+		<script src = "index.js"></script>  <!--JavaScript file-->
+	</head>
+	
+	<body>		 
+		<div class="wrapper">  <!--Login Input-->
+			<center>
+			
+			<h1>User Login</h1>
+			<form name="myform" id="login_form" action="welcome.php" method="post" onsubmit="login_attempt(this);">  
+				
+				<div class="input_box">   <!--Username Input -- Default Username: AlbErTos -->
+					<div class="icon">
+						<img src = "username.png" width = "50px">
+					</div>
+					<input type="text" name="user1" id="user1" value="" placeholder = "Username"> 
+				</div> 
+				
+				<div class="input_box">
+					<div class="icon">   <!--Password Input -- Default Password: OrEopZ@3 -->
+						<img src = "password.png" width = "50px"> 
+					</div>
+					<input type="password" name="password" id="password" value="" placeholder = "Password">
+				</div>		
+				
+				<input type="hidden" name="username" id="username" value="">
+				
+				<div class="button-container">
+					<div class="login">  <!--Login Button-->
+						<input type="submit" name="submit" value="Login" style="width: 90px;"> 
+					</div>
+					
+					<div class="reset">   <!--Reset Button-->
+						<input type="reset" name="reset" value="Reset" style="width: 90px;">
+					</div>
+				</div>
+				
+				</form>
+				
+				</center>
+				
+				<div class="result">
+					<p id="notif"></p>
+				</div>
+				
+				<div id = "new_account"> <!--New Account OnClick-->
+					 <a href = "create_account.php"> Create New Account? </a>
+				</div>
+				
+			</div>
+		
+		<div class="pizza_logo">   <!--The Big Orange Boc and Logo on the right-->
+			<img src="logo.png" alt = "Doughven Pizza logo" width = "400px">
+		</div>
+	</body>
+</html>

@@ -1,0 +1,33 @@
+
+table {
+    border-collapse: collapse;
+	width: 50%;
+	
+	
+}
+
+/* Apply styles to table cells */
+td {
+    border: 5px solid #7a3b2e; /* Border color */
+    padding: 8px; /* Add padding for cell content */
+	font-family: Copperplate, sans-serif;
+	font-weight:bold;
+	color: #bd5734;
+}
+
+tr {
+    background-color: #dbceb0; /* Background color */
+	
+}
+
+/* Apply styles to table headers */
+th {
+    background-color: #dbceb0; /* Header background color */
+    border: 5px solid #7a3b2e; /* Border color */
+    padding: 8px; /* Add padding for header content */
+	font-family: Copperplate, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color: #4f3222;
+}
+

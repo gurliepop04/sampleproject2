@@ -1,0 +1,72 @@
+body {margin: 0;}
+	
+table {
+    border-collapse: collapse;
+	width: 50%;
+	
+}
+
+/* Apply styles to table cells */
+td {
+    border: 5px solid #7a3b2e; /* Border color */
+    padding: 20px; /* Add padding for cell content */
+	font-family: Copperplate, sans-serif;
+	font-weight:bold;
+	color: #bd5734;
+}
+
+tr {
+    background-color: #dbceb0; /* Background color */
+	opacity:0.9;
+	
+}
+
+/* Apply styles to table headers */
+th {
+    background-color: #dbceb0; /* Header background color */
+	
+    border: 5px solid #7a3b2e; /* Border color */
+    padding: 8px; /* Add padding for header content */
+	font-family: Copperplate, sans-serif;
+	font-size:18px;
+	font-weight:bold;
+	color: #4f3222;
+}
+
+#styled-button {
+    background-color: rgba(122, 59, 46, 0.7); /* Red background color with 70% opacity */
+	font-family: Copperplate, sans-serif;
+	font-weight:bold;
+    color: #fff2df; /* Text color */
+    padding: 15px 18px; /* Padding for the button content */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer;
+    border: none; /* Remove default button border */
+}
+
+#copyright {
+	background-color: #A96E5B;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: #DBCEB0;
+	margin-top: 30px;
+	padding-top: 10px;
+}
+
+#disclaimer {
+	font-size: 12px;
+	height: 30px;
+	color: #BA4B2F;
+	font-family: "Lucida Console", monospace;
+	padding-top: 10px;
+	background-color: #DBCEB0;
+}
+
+
+

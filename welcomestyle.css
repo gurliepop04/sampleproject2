@@ -1,0 +1,178 @@
+body {margin: 0; background-color: #DBCEB0;}
+
+#user_box {
+	background-color: #A96E5B;
+	width: 100%;
+	height: 115px;
+}
+
+#user_box img {
+	float: left;
+	margin-left: 10px;
+	margin-top: 13px;
+	margin-bottom: 0px;
+}
+
+#user_box p {
+	font-size: 25px;
+	font-family: "Lucida Console", monospace;
+	font-weight: bold;
+	display: inline-block;
+	color: #DBCEB0;
+	margin-bottom: 0px;
+}
+
+#logout_button input {
+	margin-left: 0px;
+	background-color: #DBCEB0;
+	width: 80px;
+	height: 30px;
+	color: black;
+	border-radius: 10px;
+	border: none;
+	margin-top: 5px;
+	font-family: "American Typewriter", serif;
+}
+
+#logo_right img {
+	float: right;
+	margin-right: 25px;
+	margin-top: 7px;
+}
+
+#welcome_message h1 {
+	font-size: 50px;
+	text-align: center;
+	font-family: "Luminari", fantasy;
+	color: #BA4B2F;
+	margin-bottom: 0px;
+}
+
+#welcome_message h3 {
+	font-size: 30px;
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: #7E4A35;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+#welcome_message p {
+	font-size: 16px;
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: #7E4A35;
+	margin-top: 0px;
+	margin-right: 20%;
+	margin-left: 20%;
+}
+
+#menu_display h1 {
+	font-family: "Luminari", fantasy;
+	font-size: 35px;
+	color: #BA4B2F;
+}
+
+#menu_display img {
+	vertical-align: middle;
+}
+
+#gayselle {
+	float: left;
+	margin-left: 10%;
+	background-color: #C1502E;
+	width: 20%;
+	height: 340px;
+}
+
+#gayselle img {
+	margin-top: 20px;
+}
+
+#pricetag p {
+	font-family: "American Typewriter", serif;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-bottom: 0px;
+	color: #DBCEB0;
+}
+
+#pricetag img {
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+#myles {
+	float: left;
+	margin-left: 10%;
+	background-color: #C1502E;
+	width: 20%;
+	height: 340px;
+}
+
+#myles img {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#pricetag_myles p {
+	font-family: "American Typewriter", serif;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #DBCEB0;
+}
+
+#pricetag_myles img {
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+
+#john {
+	float: left;
+	margin-left: 10%;
+	background-color: #C1502E;
+	width: 20%;
+	height: 340px;
+}
+
+#john img {
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+#pricetag_john p {
+	font-family: "American Typewriter", serif;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-left: 20px;
+	color: #DBCEB0;
+}
+
+#pricetag_john img {
+	float: right;
+	margin-top: 0px;
+	margin-right: 0px;
+}
+	
+#copyright {
+	background-color: #A96E5B;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: #DBCEB0;
+	margin-top: 400px;
+	padding-top: 10px;
+}
+
+#disclaimer {
+	font-size: 12px;
+	height: 30px;
+	color: #BA4B2F;
+	font-family: "Lucida Console", monospace;
+	padding-top: 10px;
+}

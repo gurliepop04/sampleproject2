@@ -1,0 +1,170 @@
+body {background-color: #BA4B2F; margin: 0;}
+
+#logo_box {
+	text-align: center;
+	margin-bottom: 0;
+	position: fixed;
+	width: 45%;
+}
+
+#logo_box img {
+	float: left;
+	margin-top: 34%;
+	margin-left: 23%;
+}
+
+#wrap {
+	width: 55%;
+	float: right;
+	background-color: #DBCEB0;
+}
+
+#create_acc h1 {
+	display: block;
+	font-family: "American Typewriter", serif;
+	font-size: 50px;
+	color: #BA4B2F;
+	margin-left: 10%;
+	padding-top: 10px;
+}
+
+#acc_info {
+	background-color: #A96E5B;
+}
+
+h2 {
+	color: #DBCEB0;
+	font-family: "Lucida Console", monospace;
+	font-size: 30px;
+	width: 100%;
+	height: 50px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+#data {
+	margin-left: 10%;
+}
+
+#data h6 {
+	margin-top: 2%;
+	margin-bottom: 3px;
+	font-family: "American Typewriter", serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#data input {
+	margin-left: 1px;
+	padding-left: 10px;
+	width: 50%;
+	height: 32px;
+	background-color: rgba(186, 75, 47, 0.2);
+	border-radius: 40px;
+	border: 2px solid #BA4B2F;
+	font-family: "Lucida Console", monospace;
+}
+
+#data p {
+	margin-top: 2px;
+	font-family: "American Typewriter", serif;
+	font-size: 12px;
+	font-weight: 400;
+	margin-right: 15%;
+	text-align: justify;
+}
+
+#terms button {
+	text-align: left;
+	padding-left: 10px;
+	font-family: "American Typewriter", serif;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: rgba(186, 75, 47, 0.2);
+	border-radius: 40px;
+	border: 2px solid #BA4B2F;
+	width: 32%;
+	height: 32px;
+	margin-top: 2%;
+	margin-bottom: 3%;
+}
+
+#checkbox {
+	margin-left: 10%;
+}
+
+#checkbox h5 {
+	margin-top: 0;
+	font-family: "American Typewriter", serif;
+	font-size: 16px;
+	font-weight: 500;
+}
+
+#buttons input{
+	float: right;
+	margin-right: 2%;
+	margin-bottom: 5%;
+	width: 20%;
+	height: 30px;
+	background-color: rgba(186, 75, 47, 0.2);
+	border-radius: 40px;
+	border: 2px solid #BA4B2F;
+	font-family: "Lucida Console", monospace;
+}
+
+#date select {
+	padding-left: 7px;
+	font-family: "American Typewriter", serif;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: rgba(186, 75, 47, 0.2);
+	border-radius: 40px;
+	border: 2px solid #BA4B2F;
+	width: 20%;
+	height: 32px;
+	margin-right: 2%;
+}
+
+#gender select {
+	padding-left: 7px;
+	font-family: "American Typewriter", serif;
+	font-size: 16px;
+	font-weight: 500;
+	background-color: rgba(186, 75, 47, 0.2);
+	border-radius: 40px;
+	border: 2px solid #BA4B2F;
+	width: 20%;
+	height: 32px;
+	margin-right: 2%;
+}
+
+#details {
+	background-color: #A96E5B;
+	margin-left: -11.1%;
+}
+
+.error {
+    color: red;
+    font-family: "Lucida Console", monospace;
+    font-size: 14px;
+}
+
+#copyright {
+	clear: both;
+	background-color: #A96E5B;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: #DBCEB0;
+	margin-top: 400px;
+	padding-top: 10px;
+}
+
+#disclaimer {
+	font-size: 12px;
+	height: 30px;
+	color: #DBCEB0;
+	font-family: "Lucida Console", monospace;
+	padding-top: 10px;
+}

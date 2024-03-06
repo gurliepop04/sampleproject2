@@ -1,0 +1,132 @@
+body {
+	background-color: #D8C79F;
+	background-attachment: fixed;
+	background-image: url('new_acc_bg.png');
+	background-size: cover; 
+	background-attachment: fixed;
+	margin: 0;
+}
+
+.container {     /*Purpose: to prevent every elements from getting displayed when screen is adjusted*/
+	width: 100%; 
+	height: 100%;
+	margin-bottom: 0;
+	font-family: "Lucida Console", monospace;
+}
+
+.container .profile {    /*Profile wrapper*/
+	width: 20%;
+	height: 300px;
+	background-color: #C1502E;
+	margin-left: 7%;
+	margin-top: 3.5%;
+	margin-bottom: 0;
+	font-size: 20px;
+}
+
+.container .profile img {  
+	height: auto;
+	margin-top: 10%;
+	margin-left: 13%;
+}
+
+.tag img{
+	float: right;
+}
+
+.container .profile h3 {
+	margin-left: 32px;
+	color: #DBCEB0;
+}
+
+.container .credentials {    /*contains the ACCOUNT INFORMATION and PERSONAL DETAILS*/
+	width: 85%;
+	height: 320px;
+	background-color: rgba(186, 75, 47, 0.8);
+	margin-left: 7%;
+	margin-top: 6%;
+	position: absolute;
+}
+
+.container .credentials .account_info {    /*ACCOUNT INFORMATION (left side)*/
+	color: #DBCEB0;
+	height: 97%;
+	border: 5px solid #7A3B2E;
+	position: absolute;
+}
+
+.container .credentials .account_info h2 {
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 7%;
+}
+
+.container .credentials .account_info h3 {
+	margin-left: 40px;
+	margin-top: 3%;
+	font-size: 18px;
+}
+
+.container .credentials .per_tails {    /*PERSONAL DETAILS (right side)*/
+	color: #DBCEB0;
+	height: 97%;
+	width: 58.5%;
+	border: 5px solid #7A3B2E;
+	margin-left: 41%;
+}
+
+.account_info {
+	width: 40%;
+}
+
+.per_tails {    /*PERSONAL DETAILS (right side)*/
+	width: 60%;
+}
+
+.container .credentials .per_tails h2 {
+	text-align: center;
+	margin-top: 3%;
+	margin-bottom: 5%;
+}
+
+.container .credentials .per_tails h3 {
+	margin-left: 40px;
+	font-size: 18px;
+}
+
+#buttons input{
+	float: right;
+	margin-right: 2%;
+	margin-bottom: 5%;
+	width: 20%;
+	height: 30px;
+	background-color: rgba(186, 75, 47, 0.2);
+	border-radius: 40px;
+	border: 2px solid #BA4B2F;
+	font-family: "Lucida Console", monospace;
+}
+
+#buttons {
+	margin-right: 5%;
+	margin-top: 33%;
+}
+
+#copyright {
+	clear: both;
+	background-color: #A96E5B;
+	width: 100%;
+	height: 30px;
+	text-align: center;
+	font-family: "Lucida Console", monospace;
+	color: #DBCEB0;
+	margin-top: 200px;
+	padding-top: 10px;
+}
+
+#disclaimer {
+	font-size: 12px;
+	height: 30px;
+	color: #BA4B2F;
+	font-family: "Lucida Console", monospace;
+	padding-top: 10px;
+}
